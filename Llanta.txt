@@ -1,6 +1,7 @@
 class Llanta{
 float radio;
 float espesor;
+int color;
 String Marca;
 
 }
