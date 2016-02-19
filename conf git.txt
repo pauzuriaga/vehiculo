@@ -5,7 +5,15 @@ git config --global user.email "dariochamorro@unicauca.edu.co"
 
 CREAR REPOSITORIO
 git init  //inicializa el repositorio
+git add . // pasa archivos a seguimiento
+git commit -m "..." // guardar estado
 
 VERIFICAR ESTADO
 git status// cuales estan en seguimiento y cuales no
+
+GUARDAR ESTADO
 git add . // pasa archivos a seguimiento
+git commit -m "..." // guardar estado
+
+REGRESAR ESTADO
+git reset --hard HEAD //regresa al ultimo commit
