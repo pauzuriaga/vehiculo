@@ -1,5 +1,6 @@
 CONFIGURACION GIT
 
+
 git config --global user.name "Dario"
 git config --global user.email "dariochamorro@unicauca.edu.co"
 
@@ -17,3 +18,12 @@ git commit -m "..." // guardar estado
 
 REGRESAR ESTADO
 git reset --hard HEAD //regresa al ultimo commit
+
+
+git log// muestra todos los commits
+
+RAMAS
+git branch //listar ramas y la seleccionada
+git branch nombre
+git checkout nombre //salta a la ramma
+git merge ///fusiono ramas
