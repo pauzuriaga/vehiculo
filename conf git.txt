@@ -1,0 +1,11 @@
+CONFIGURACION GIT
+
+git config --global user.name "Dario"
+git config --global user.email "dariochamorro@unicauca.edu.co"
+
+CREAR REPOSITORIO
+git init  //inicializa el repositorio
+
+VERIFICAR ESTADO
+git status// cuales estan en seguimiento y cuales no
+git add . // pasa archivos a seguimiento
